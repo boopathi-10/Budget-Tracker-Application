@@ -14,13 +14,13 @@ A sleek, responsive Budget Tracker web app that helps you manage your expenses a
 - JavaScript (Vanilla JS)
 - Chart.js (optional for future visualizations)
 
-## 📸 Screenshots
+## 🗃️ Features
+Add income or expense with description, amount, type, and category
 
-> _Add screenshots here if you want. Use `assets/screenshot1.png`, etc._
+Auto-balance calculation
 
-## 🔧 Setup Instructions
+Dark Mode toggle (remembers your preference)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/budget-tracker.git
-   cd budget-tracker
+Transactions stored in localStorage
+
+Responsive and modern UI design

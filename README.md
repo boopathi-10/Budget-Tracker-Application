@@ -17,10 +17,10 @@ A sleek, responsive Budget Tracker web app that helps you manage your expenses a
 ## 🗃️ Features
 Add income or expense with description, amount, type, and category
 
-Auto-balance calculation
+- Auto-balance calculation
 
-Dark Mode toggle (remembers your preference)
+- Dark Mode toggle (remembers your preference)
 
-Transactions stored in localStorage
+- Transactions stored in localStorage
 
-Responsive and modern UI design
+- Responsive and modern UI design

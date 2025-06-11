@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Tracker Pro</title>
+    <link rel="stylesheet" href="budgettracker.css" />
+    
+    <div class="dark-mode-toggle">
+        <label>
+            <input type="checkbox" id="darkModeToggle" />
+            🌙 Dark Mode
+        </label>
+    </div>
+
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="input-container">
+            <div class="header">
+                <h1>💰 Budget Tracker Pro</h1>
+            </div>
+
+            <div id="balance">Balance: $0.00</div>
+
+
+
+            <form id="transactionForm">
+                <input type="text" id="description" placeholder="Transaction Description" required />
+
+                <input type="number" id="amount" placeholder="Amount" step="0.01" required />
+
+                <select id="type" required>
+                    <option value="income">💸 Income</option>
+                    <option value="expense">💳 Expense</option>
+                </select>
+
+                <select id="category" required>
+                    <option value="">Select Category</option>
+                    <option value="Food">Food</option>
+                    <option value="Rent">Rent</option>
+                    <option value="Salary">Salary</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Shopping">Shopping</option>
+                    <option value="Others">Others</option>
+                </select>
+
+                <button type="submit">Add Transaction</button>
+
+
+
+            </form>
+
+        </div>
+
+        <div class="transactions-container">
+            <h2>Transactions</h2>
+            <div id="transactionList"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+
+
+    <script src="budgettracker_main.js"></script>
+
+</body>
+
+</html>
